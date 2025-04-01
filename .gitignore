@@ -1,5 +1,5 @@
 # Build output
-# *.vsix
+*.vsix
 
 # Dependencies
 node_modules/
