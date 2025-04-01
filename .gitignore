@@ -1,0 +1,15 @@
+# Build output
+# *.vsix
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db 

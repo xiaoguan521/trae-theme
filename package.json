@@ -1,0 +1,31 @@
+{
+  "name": "trae-theme",
+  "displayName": "Trae Theme",
+  "description": "Trae's Dark and Light Theme for VS Code",
+  "version": "1.1.0",
+  "publisher": "trae",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaoguan521/trae-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Trae Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_plus.json"
+      },
+      {
+        "label": "Trae Light",
+        "uiTheme": "vs",
+        "path": "./themes/light_plus.json"
+      }
+    ]
+  }
+}

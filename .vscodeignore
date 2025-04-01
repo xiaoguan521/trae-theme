@@ -1,0 +1,11 @@
+.vscode/**
+.vscode-test/**
+node_modules/**
+.gitignore
+vsc-extension-quickstart.md
+.git/**
+**/.DS_Store
+**/pycache/**
+**/__pycache__
+*.vsix
+fileicons/** 

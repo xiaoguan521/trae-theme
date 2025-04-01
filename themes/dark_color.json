@@ -1,0 +1,81 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Trae Dark",
+  "colors": {
+    // 基础UI颜色
+    "editor.background": "#181A1F",
+    "editor.foreground": "#DADDE5",
+    "editorCursor.foreground": "#DADDE5",
+    "editor.selectionBackground": "#C2CAF229",
+    "editor.lineHighlightBackground": "#C2CAF214",
+    
+    // 侧边栏
+    "activityBar.background": "#24262B",
+    "activityBar.foreground": "#DADDE5",
+    "activityBar.inactiveForeground": "#9599A6",
+    "activityBarBadge.background": "#387BFF",
+    "activityBarBadge.foreground": "#FFFFFF",
+    
+    // 侧边栏
+    "sideBar.background": "#24262B",
+    "sideBar.foreground": "#DADDE5",
+    "sideBarTitle.foreground": "#9599A6",
+    "sideBarSectionHeader.background": "#33363D",
+    "sideBarSectionHeader.foreground": "#DADDE5",
+    
+    // 标签页
+    "tab.activeBackground": "#181A1F",
+    "tab.activeForeground": "#DADDE5",
+    "tab.inactiveBackground": "#24262B",
+    "tab.inactiveForeground": "#9599A6",
+    "editorGroupHeader.tabsBackground": "#24262B",
+    
+    // 状态栏
+    "statusBar.background": "#24262B",
+    "statusBar.foreground": "#DADDE5",
+    "statusBar.debuggingBackground": "#387BFF",
+    "statusBar.debuggingForeground": "#FFFFFF",
+    "statusBar.noFolderBackground": "#24262B",
+    
+    // 标题栏
+    "titleBar.activeBackground": "#24262B",
+    "titleBar.activeForeground": "#DADDE5",
+    "titleBar.inactiveBackground": "#24262B",
+    "titleBar.inactiveForeground": "#9599A6",
+    
+    // 输入框
+    "input.background": "#33363D",
+    "input.foreground": "#DADDE5",
+    "input.placeholderForeground": "#9599A6",
+    "inputOption.activeBorder": "#387BFF",
+    
+    // 下拉菜单
+    "dropdown.background": "#33363D",
+    "dropdown.foreground": "#DADDE5",
+    "dropdown.border": "#C2CAF229",
+    
+    // 列表
+    "list.activeSelectionBackground": "#C2CAF229",
+    "list.activeSelectionForeground": "#DADDE5",
+    "list.hoverBackground": "#C2CAF214",
+    "list.hoverForeground": "#DADDE5",
+    "list.inactiveSelectionBackground": "#C2CAF214",
+    "list.inactiveSelectionForeground": "#DADDE5",
+    
+    // 按钮
+    "button.background": "#387BFF",
+    "button.foreground": "#FFFFFF",
+    "button.hoverBackground": "#78A5FF",
+    
+    // 滚动条
+    "scrollbarSlider.background": "#DDE2E940",
+    "scrollbarSlider.hoverBackground": "#DDE2E959",
+    "scrollbarSlider.activeBackground": "#DDE2E980",
+    
+    // 其他
+    "focusBorder": "#C2CAF229",
+    "foreground": "#DADDE5",
+    "widget.shadow": "#00000029",
+    "selection.background": "#C2CAF229"
+  }
+}
