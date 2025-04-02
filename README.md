@@ -18,6 +18,8 @@
    - 在VS Code中，选择"从VSIX安装..."
    - 选择下载的文件进行安装
 
+> 兼容性要求：VS Code 版本 1.70.0 或更高
+
 2. 从源码安装：
    ```bash
    git clone https://github.com/xiaoguan521/trae-theme.git
@@ -36,6 +38,9 @@
 
 ## 版本历史
 
+- 1.2.0
+  - 降低 VS Code 最低版本要求至 1.70.0
+  - 提升主题兼容性
 - 1.1.0
   - 添加亮色主题支持
   - 优化包大小
