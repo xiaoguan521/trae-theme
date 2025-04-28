@@ -72,6 +72,11 @@
     "scrollbarSlider.hoverBackground": "#DDE2E959",
     "scrollbarSlider.activeBackground": "#DDE2E980",
     
+    // 分隔线
+    "editorGroup.border": "#3A3D45",
+    "panel.border": "#3A3D45",
+    "sideBar.border": "#3A3D45",
+    
     // 其他
     "focusBorder": "#C2CAF229",
     "foreground": "#DADDE5",
