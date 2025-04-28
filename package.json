@@ -2,7 +2,7 @@
   "name": "trae-theme",
   "displayName": "Trae Theme",
   "description": "Trae's Dark and Light Theme for VS Code",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "publisher": "yoy0721",
   "engines": {
     "vscode": "^1.70.0"
