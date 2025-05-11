@@ -1,0 +1,160 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Trae Flat",
+  "include": "./dark_vs.json",
+  "colors": {
+    // 基础UI颜色 - 使用统一平面色调，提高对比度
+    "editor.background": "#21252B", 
+    "editor.foreground": "#E1E6F0",
+    "editorCursor.foreground": "#FFFFFF",
+    "editor.selectionBackground": "#404C66",
+    "editor.lineHighlightBackground": "#2C313C",
+    
+    // 侧边栏 - 增加与编辑器的区分度
+    "activityBar.background": "#191D24",
+    "activityBar.foreground": "#E1E6F0",
+    "activityBar.inactiveForeground": "#8D93A0",
+    "activityBarBadge.background": "#528BFF",
+    "activityBarBadge.foreground": "#FFFFFF",
+    
+    // 侧边栏 - 显著调整背景色，提升层次感
+    "sideBar.background": "#1C2128",
+    "sideBar.foreground": "#E1E6F0",
+    "sideBarTitle.foreground": "#8D93A0",
+    "sideBarSectionHeader.background": "#1C2128",
+    "sideBarSectionHeader.foreground": "#E1E6F0",
+    "sideBar.border": "#32394A", // 明显提亮边框颜色
+    
+    // 标签页 - 为活动标签增加更明显的指示器
+    "tab.activeBackground": "#21252B",
+    "tab.activeForeground": "#E1E6F0",
+    "tab.inactiveBackground": "#1C2128",
+    "tab.inactiveForeground": "#8D93A0",
+    "editorGroupHeader.tabsBackground": "#191D24",
+    "tab.border": "#32394A", // 提亮边框
+    "tab.activeBorderTop": "#61AFEF", // 保持指示器颜色
+    "tab.activeBorder": "#21252B", // 底部边框与背景色一致
+    "tab.hoverBackground": "#32394A", // 添加更明显的悬停效果
+    "tab.hoverForeground": "#FFFFFF", // 悬停时文字颜色
+    
+    // 状态栏 - 与活动栏保持一致性但增加对比度
+    "statusBar.background": "#191D24",
+    "statusBar.foreground": "#E1E6F0",
+    "statusBar.debuggingBackground": "#528BFF",
+    "statusBar.debuggingForeground": "#FFFFFF",
+    "statusBar.noFolderBackground": "#191D24",
+    "statusBar.border": "#32394A", // 提亮边框
+    
+    // 标题栏 - 统一颜色
+    "titleBar.activeBackground": "#191D24",
+    "titleBar.activeForeground": "#E1E6F0",
+    "titleBar.inactiveBackground": "#191D24",
+    "titleBar.inactiveForeground": "#8D93A0",
+    "titleBar.border": "#32394A", // 提亮边框
+    
+    // 输入框 - 增强交互元素的视觉效果
+    "input.background": "#151820",
+    "input.foreground": "#E1E6F0",
+    "input.placeholderForeground": "#8D93A0",
+    "inputOption.activeBorder": "#61AFEF", // 调整为与标签页指示器相同的颜色
+    "input.border": "#32394A", // 增强边框对比度
+    
+    // 下拉菜单 - 保持交互元素一致性
+    "dropdown.background": "#151820",
+    "dropdown.foreground": "#E1E6F0",
+    "dropdown.border": "#32394A", // 提亮边框
+    
+    // 列表 - 显著增强选择效果对比度
+    "list.activeSelectionBackground": "#3D4D6A",
+    "list.activeSelectionForeground": "#FFFFFF",
+    "list.hoverBackground": "#343E52",
+    "list.hoverForeground": "#FFFFFF",
+    "list.inactiveSelectionBackground": "#343E52",
+    "list.inactiveSelectionForeground": "#E1E6F0",
+    "list.highlightForeground": "#61AFEF", // 搜索匹配高亮色
+    
+    // 按钮 - 交互元素统一风格，增强对比度
+    "button.background": "#4D78CC",
+    "button.foreground": "#FFFFFF",
+    "button.hoverBackground": "#6990E0",
+    "button.secondaryBackground": "#2F3542", // 添加次级按钮样式
+    "button.secondaryForeground": "#E1E6F0",
+    "button.secondaryHoverBackground": "#3E4457",
+    
+    // 滚动条 - 增强可见性
+    "scrollbarSlider.background": "#455169A0",
+    "scrollbarSlider.hoverBackground": "#455169E0",
+    "scrollbarSlider.activeBackground": "#455169",
+    
+    // 分隔线 - 提亮边框颜色增强分隔效果
+    "editorGroup.border": "#32394A",
+    "panel.border": "#32394A",
+    "panel.background": "#1C2128", // 与侧边栏背景一致
+    "panelTitle.activeForeground": "#E1E6F0",
+    "panelTitle.inactiveForeground": "#8D93A0",
+    
+    // 其他 - 强化边框，增强层次感
+    "focusBorder": "#61AFEF40", // 半透明边框效果，增强对比度
+    "foreground": "#E1E6F0",
+    "widget.shadow": "#00000066", // 增强阴影效果
+    "selection.background": "#3E4556",
+    
+    // 编辑器小部件
+    "editorWidget.background": "#1C2128",
+    "editorWidget.border": "#32394A",
+    "editorSuggestWidget.background": "#1C2128",
+    "editorSuggestWidget.border": "#32394A",
+    "editorSuggestWidget.selectedBackground": "#3D4D6A",
+    "editorSuggestWidget.highlightForeground": "#61AFEF",
+    
+    // 通知
+    "notificationCenter.border": "#32394A",
+    "notificationCenterHeader.background": "#191D24",
+    "notificationCenterHeader.foreground": "#E1E6F0",
+    "notificationLink.foreground": "#61AFEF",
+    "notifications.background": "#1C2128",
+    "notifications.border": "#32394A",
+    "notifications.foreground": "#E1E6F0",
+    
+    "notificationsErrorIcon.foreground": "#F44747",
+    "notificationsWarningIcon.foreground": "#E9D16C",
+    "notificationsInfoIcon.foreground": "#61AFEF",
+    
+    "gitDecoration.modifiedResourceForeground": "#E9D16C",
+    "gitDecoration.deletedResourceForeground": "#F44747",
+    "gitDecoration.untrackedResourceForeground": "#89CA78",
+    "gitDecoration.ignoredResourceForeground": "#5D6375",
+    "gitDecoration.conflictingResourceForeground": "#E9D16C",
+    
+    "diffEditor.insertedTextBackground": "#89CA7830",
+    "diffEditor.removedTextBackground": "#F4474730",
+    
+    "terminal.background": "#1C2128",
+    "terminal.foreground": "#E1E6F0",
+    "terminal.ansiBlack": "#191D24",
+    "terminal.ansiBlue": "#61AFEF",
+    "terminal.ansiBrightBlack": "#5D6375",
+    "terminal.ansiBrightBlue": "#61AFEF",
+    "terminal.ansiBrightCyan": "#56B6C2",
+    "terminal.ansiBrightGreen": "#89CA78",
+    "terminal.ansiBrightMagenta": "#C678DD",
+    "terminal.ansiBrightRed": "#F44747",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.ansiBrightYellow": "#E9D16C",
+    "terminal.ansiCyan": "#56B6C2",
+    "terminal.ansiGreen": "#89CA78",
+    "terminal.ansiMagenta": "#C678DD",
+    "terminal.ansiRed": "#F44747",
+    "terminal.ansiWhite": "#E1E6F0",
+    "terminal.ansiYellow": "#E9D16C"
+  },
+  "tokenColors": [
+    // ... existing code ...
+  ],
+  "semanticTokenColors": {
+    "newOperator": "#E1E6F0",
+    "stringLiteral": "#89CA78",
+    "customLiteral": "#E1E6F0",
+    "numberLiteral": "#D2A35D"
+  }
+} 
